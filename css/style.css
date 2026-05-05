@@ -657,6 +657,19 @@ a { color: inherit; text-decoration: none; }
   padding: 16px;
   border: 1px solid rgba(255,255,255,0.08);
 }
+.map-container {
+  margin-top: 48px;
+  overflow: hidden;
+  opacity: 0.9;
+}
+.map-container iframe {
+  width: 100%;
+  height: 320px;
+  border: 0;
+  display: block;
+  filter: grayscale(20%);
+}
+
 .access-note strong {
   display: block;
   color: rgba(255,255,255,0.6);
