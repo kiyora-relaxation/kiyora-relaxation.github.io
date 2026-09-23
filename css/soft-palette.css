@@ -5,3 +5,19 @@
 .btn-primary:hover { background: #735f52; }
 .access-content { background: #6b594d; }
 .site-footer { background: #4a3d35; }
+
+@media (max-width: 440px) {
+  .section-heading h2 {
+    font-size: clamp(25px, 6.5vw, 30px);
+    letter-spacing: .04em;
+  }
+
+  .reservation .section-heading h2 {
+    white-space: nowrap;
+  }
+
+  .reservation-card h3 {
+    font-size: 18px;
+    letter-spacing: .06em;
+  }
+}
