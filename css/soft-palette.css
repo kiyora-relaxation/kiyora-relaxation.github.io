@@ -1,0 +1,7 @@
+:root {
+  --deep: #5c4c42;
+}
+
+.btn-primary:hover { background: #735f52; }
+.access-content { background: #6b594d; }
+.site-footer { background: #4a3d35; }
