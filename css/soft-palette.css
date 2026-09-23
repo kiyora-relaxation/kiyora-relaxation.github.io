@@ -15,6 +15,7 @@
   border-radius: 50%;
 }
 .footer-links svg { width: 20px; height: 20px; }
+.line-mark { font: 600 8px/1 Arial, sans-serif; letter-spacing: -.06em; }
 .sr-only {
   position: absolute;
   width: 1px;
